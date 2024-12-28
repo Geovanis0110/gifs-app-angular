@@ -14,7 +14,7 @@ export class SearchComponent {
 
   onSearch(){
     const newTag: string = this.tagElement.nativeElement.value;
-    this.gifService.sarchTag(newTag);
+    this.gifService.searchTag(newTag);
     this.tagElement.nativeElement.value = "";
     console.log(newTag, this.gifService.getHistory);
   }

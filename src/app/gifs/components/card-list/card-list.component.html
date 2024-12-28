@@ -3,4 +3,9 @@
   *ngFor="let item of gifs"
   [gif]="item">
   </gifs-card>
+
+  <img class="col-6 bg-dark"
+  *ngIf="gifs.length===0"
+  src="assets/oval.svg"
+  />
 </div>

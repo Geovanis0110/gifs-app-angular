@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+//import 'animate.css';
 
 @Component({
   selector: 'app-lazy-image',

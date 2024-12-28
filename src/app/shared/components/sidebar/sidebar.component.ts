@@ -17,6 +17,6 @@ export class SidebarComponent {
  }
 
  onSearch(oldTag:string): void{
-  this.gifsService.sarchTag(oldTag);
+  this.gifsService.searchTag(oldTag);
  }
 }
